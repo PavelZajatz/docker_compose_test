@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "0.0.0.0:5000:5000"
     # The new volumes key mounts the project directory (current directory)
     # on the host to /code inside the container, allowing you to modify the code on the fly
     volumes:
